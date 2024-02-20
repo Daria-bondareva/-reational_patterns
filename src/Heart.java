@@ -1,4 +1,4 @@
-//Singleton
+//Singleton_with_Heart
 public class Heart {
     private static Heart heart;
    private Heart(){
