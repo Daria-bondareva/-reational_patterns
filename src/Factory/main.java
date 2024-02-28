@@ -2,7 +2,7 @@ package Factory;
 
 public class main {
     public static void main(String[] args){
-        Academy_cooks academyCooks = createBySpecialty("fish");
+        Academy_cooks academyCooks = createBySpecialty("meat");
         Cook cook = academyCooks.createCooks();
 
         cook.Cooking();
